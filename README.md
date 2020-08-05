@@ -18,14 +18,14 @@ In between, we'll be adding a fair amount of JavaScript to make that happen!
 
 * You should get familiar with the `index.html` file, as the tags in there are what you will need to hook into in order to query the elements we'll be adding interactivity to. You are ABSOLUTELY WELCOME to add ids and classes to make your querying easier or just more in your own personal style, but you also ABSOLUTELY DO NOT NEED TO.
 
-* Similarly, you should get accustomed to what's in `style.css`. There's some flexbox in there, which we'll be using soon, but you don't need to worry about that; it's just for general layout of the page and to make our row of dinosaurs a nice row. You shouldn't change ANYTHING in there!
+* Similarly, you should get accustomed to what's in `style.css`. There's some Flexbox in there, which we'll be using soon, but you don't need to worry about that; it's just for general layout of the page and to make our row of dinosaurs a nice row. You shouldn't change ANYTHING in there!
 
 * But you could and should notice that there are two `transition` rules being applied. These make it so that when those rules are changed--`width` on an `img` or `opacity` on the `li`s in the `ul`--those changes happen over 2 seconds, producing a neat effect. Might these be the properties you want to change with JavaScript? These might be the properties you want to change with JavaScript!
 
 * But all of your work should really be in your `main.js` file. This is where you're going to work, and this is going to be where you will play.
 
 
-### How To Achieve Exctinction - A Walkthrough
+### How To Achieve Extinction - A Walkthrough
 
 1. The first step is our `ol`. The `li`s in their should all have an event listener on them that give them a `line-through` effect on them when they are clicked. The solution here is following the same pattern we did before--query the element, make a function that affects that target, then tie them together with an event listener that also specifies WHEN the function should be called--but with two additional tricks:
     1. We'll need to query ALL of the elements with `querySelectorAll`, which will return an array (or array-like collection) that we can loop through, putting the event listener on each individual item in the collection.
