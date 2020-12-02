@@ -1,6 +1,6 @@
 # Extinction Event
 
-We'll start at the uninteractive stone that is our [http://extinction-event-starting-point.surge.sh/]() and end up at this highly interactive [extinction event solution](http://extinction-event-solution.surge.sh/).
+We'll start at the uninteractive starting point that is our [http://extinction-event-starting-point.surge.sh/]() and end up at this highly interactive [extinction event solution](http://extinction-event-solution.surge.sh/).
 
 In between, we'll be adding a fair amount of JavaScript to make that happen!
 
