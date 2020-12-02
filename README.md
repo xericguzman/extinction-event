@@ -9,6 +9,7 @@ In between, we'll be adding a fair amount of JavaScript to make that happen!
 
 * `querySelectorAll`
 * function expressions (`const [variableName] = function() {}`)
+    * OR anonymous inline functions
 * `for of` loops
 * `event listeners`
 * the `event` object
