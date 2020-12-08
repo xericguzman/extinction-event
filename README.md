@@ -36,3 +36,9 @@ In between, we'll be adding a fair amount of JavaScript to make that happen!
 4. But this last step, the Meteor Me button mass extinction, is hugely different. How do we affect ALL the items we've covered so far on one single button press? It's not actually _that_ different. We'll just have to have a function that, when run, loops through all three sets of elements, applying the correct effect to each set. You don't need the `event` object here, because you don't care WHICH element was interacted with; you're gonna affect them all. Then simply attach that function as an event listener on the button, and you're done!
 
 And you're DONE.
+
+
+### Stretch Goals
+
+* Use `forEach` instead of a loop. [This is a pretty good in-depth article on `forEach`](https://appdividend.com/2018/09/12/javascript-foreach-example/), but you don't need to read the entire thing to use it!
+* Make helper functions for your CSS changes. Right now, you may find yourself doing the `style` changes twice; once in the event listener on each item, and once in your "Meteor Me" button code. But you could write a helper function that takes in a node element and runs the `opacity` change (and one each for the other two!), and then call that on the element you want to change. It's not a huge win (Write Everything Twice, and that's exactly what we're doing), but it's a good exercise for when we DO need this kind of helper function.
