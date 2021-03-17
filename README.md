@@ -4,20 +4,9 @@ We'll start at the uninteractive website that is our [starting point](http://ext
 
 In between, we'll be adding a fair amount of JavaScript to make that happen!
 
-
-### Tools We'll Be Using
-
-* `querySelectorAll` to grab every element from one of the three groups
-* function expressions (`const [variableName] = () => {}`)
-    * OR anonymous inline functions in callbacks (`element.addEventListener('click', () => {})`)
-* loops
-* event listeners
-* the `event` object (`element.addEventListener('click', (event) => {})`)
-
-
 ### Setup And Guidelines
 
-* You should get familiar with the `index.html` file, as the tags in there are what you will need to hook into in order to query the elements we'll be adding interactivity to. You are ABSOLUTELY WELCOME to add IDs and classes to make your querying easier or just more in your own personal style, but you also ABSOLUTELY DO NOT NEED TO. Tag selectors will get you there, although you will have to differentiate between the list item lists with a [descendent selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator)
+* You should get familiar with the `index.html` file, as the tags in there are what you will need to hook into in order to query the elements we'll be adding interactivity to. You are ABSOLUTELY WELCOME to add IDs and classes to make your querying easier or just more in your own personal style, but you also do not need to.
 
 * Similarly, you should get accustomed to what's in `style.css`. There's some Flexbox in there, which isn't the main focus of this page, but is an example of a simply-applied basic layout. You shouldn't change ANYTHING in there!
 
